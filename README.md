@@ -15,11 +15,11 @@ Simple PHP RESTful router
 		echo "Hello POST!";
 	});
 	
-	$router->PUT('/path', function() {
+	$router->put('/path', function() {
 		echo "Hello PUT!";
 	});
 	
-	$router->DELETE('/path', function() {
+	$router->delete('/path', function() {
 		echo "Hello DELETE!";
 	});
 	
